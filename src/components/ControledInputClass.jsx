@@ -13,7 +13,20 @@ class ControledInputClass extends React.Component {
     this.setState({
       value: e.target.value
     });
+  }
+
+  componentDidMount() {
+    this.setState({
+      value: ""
+    });
+  }
+
+  componentDidUpdate() {
     console.log(this.state.value);
+  }
+
+  componentWillUnmount() {
+    console.log('component will unmount');
   }
 
   render() {
