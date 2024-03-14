@@ -5,8 +5,9 @@ const ControledInput = () => {
 
   const onChangeHandler = (e) => {
     setValue(e.target.value)
+    console.log(e.target.value);
   }
-  
+
   return (
     <div>
       <input type="text" value={value} placeholder={value} onChange={onChangeHandler} />
