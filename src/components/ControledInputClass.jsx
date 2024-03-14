@@ -7,8 +7,8 @@ class ControledInputClass extends React.Component {
       value: ""
     };
     this.onChangeHandler = this.onChangeHandler.bind(this);
-
   }
+  
   onChangeHandler(e) {
     this.setState({
       value: e.target.value
