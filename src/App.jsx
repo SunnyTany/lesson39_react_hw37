@@ -6,8 +6,9 @@ import './App.css'
 function App() {
   return (
     <>
-      <h1>Controled component</h1>
+      <h1>Controled components</h1>
       <ControledInput />
+      <br />
       <ControledInputClass />
       <hr />
       <h1>Uncontroled component</h1>

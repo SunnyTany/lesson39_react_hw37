@@ -9,9 +9,7 @@ const ControledInput = () => {
   }
 
   return (
-    <div>
-      <input type="text" value={value} placeholder={value} onChange={onChangeHandler} />
-    </div>
+    <input type="text" value={value} placeholder={value} onChange={onChangeHandler} />
   )
 }
 
